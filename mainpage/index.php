@@ -16,7 +16,7 @@ if (isset($_GET["logout"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>YourWoof website</title>
+    <title>YourWoof shelter</title>
     <link rel="icon" type="image/icon" sizes="16x16" href="./images/yourwoof16x16.png">
     <link rel="apple-icon" type="image/icon" href="./images/yourwoof180x180-apple.png">
     <link rel="icon" type="image/icon" href="./images/yourwoof512x512.png">
