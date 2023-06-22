@@ -55,6 +55,9 @@ if (isset($_GET["logout"])) {
 
 
     <div class="main-wrapper">
+        <div class="preloader">
+            <img src="./images/yourwoof180x180-apple.png" class="preloader__image" alt="">
+        </div>
         <div class="nav-background">
             <div class="mobile-logo">
                 <img src="./icons/logo.svg" alt="">
@@ -277,14 +280,6 @@ if (isset($_GET["logout"])) {
                     </div>
 
                 </section>
-
-
-                <div class="preloader">
-                    <img src="./images/yourwoof180x180-apple.png" class="preloader__image" alt="">
-                </div>
-
-
-
 
 
                 <section class="about-meal">
