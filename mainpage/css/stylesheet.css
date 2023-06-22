@@ -27,7 +27,7 @@
 
 /* loading page */
 .ajax-loader {
-    position: absolute;
+    position: fixed;
     top: 25%;
     left: 50%;
     transform-origin: 50% 50%;
