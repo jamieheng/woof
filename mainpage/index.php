@@ -26,7 +26,7 @@ if (isset($_GET["logout"])) {
 
 <body>
     <div class="preloader">
-        <img src="./images/yourwoof512x512.png" class="preloader__image" alt="">
+        <img src="./images/yourwoof180x180-apple.png" class="preloader__image" alt="">
     </div>
 
 
