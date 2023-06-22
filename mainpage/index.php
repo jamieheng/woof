@@ -21,7 +21,9 @@ if (isset($_GET["logout"])) {
     <link rel="apple-icon" type="image/icon" href="./images/yourwoof180x180-apple.png">
     <link rel="icon" type="image/icon" href="./images/yourwoof512x512.png">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
     <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css2/style.css">
 </head>
 
 <body>
