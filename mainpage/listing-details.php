@@ -40,6 +40,11 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
+    <!-- main -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/stylesheet.css">
+
+
 </head>
 
 <body>
@@ -77,14 +82,14 @@
                                 </div> -->
                                 <div class="header_top_one_content_box_bottom">
                                     <div class="header_top_one_content_box_bottom_inner clearfix">
-                                        <div class="header_top_one_content_box_bottom__social_box">
+                                        <!-- <div class="header_top_one_content_box_bottom__social_box">
                                             <div class="header_top_one_content_box_bottom__social">
                                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                                 <a href="#"><i class="fab fa-facebook-square"></i></a>
                                                 <a href="#"><i class="fab fa-dribbble"></i></a>
                                                 <a href="#"><i class="fab fa-instagram"></i></a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="header_top_one_content_box_bottom_contact_info">
                                             <ul class="header_top_one_content_box_bottom_contact_info_list list-unstyled">
                                                 <li>
@@ -755,34 +760,40 @@
 
 
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/TweenMax.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/typed-2.0.11.js"></script>
-    <script src="assets/js/vegas.min.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <script src="assets/js/bootstrap-select.min.js"></script>
-    <script src="assets/js/countdown.min.js"></script>
-    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="assets/js/bootstrap-datepicker.min.js"></script>
-    <script src="assets/js/nouislider.min.js"></script>
-    <script src="assets/js/isotope.js"></script>
-    <script src="assets/js/appear.js"></script>
-    <script src="assets/js/jarallax.js"></script>
-    <script src="assets/js/jquery.bootstrap-touchspin.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/waypoints.min.js"></script>
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/TweenMax.min.js"></script>
+    <script src="./assets/js/wow.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="./assets/js/swiper.min.js"></script>
+    <script src="./assets/js/typed-2.0.11.js"></script>
+    <script src="./assets/js/vegas.min.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/bootstrap-select.min.js"></script>
+    <script src="./assets/js/countdown.min.js"></script>
+    <script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="./assets/js/nouislider.min.js"></script>
+    <script src="./assets/js/isotope.js"></script>
+    <script src="./assets/js/appear.js"></script>
+    <script src="./assets/js/jarallax.js"></script>
+    <script src="./assets/js/jquery.bootstrap-touchspin.js"></script>
+    <script src="./assets/js/jquery-ui.js"></script>
     <script src="http://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
 
 
     <!-- template scripts -->
-    <script src="assets/js/theme.js"></script>
+    <script src="./assets/js/theme.js"></script>
+
+    <!-- main -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
 
 
 </body>

@@ -23,6 +23,27 @@ if (isset($_GET["logout"])) {
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <!-- css template -->
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="./assets/css/jarallax.css">
+
+    <link rel="stylesheet" href="./assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="./assets/css/vegas.min.css">
+    <link rel="stylesheet" href="./assets/css/nouislider.min.css">
+    <link rel="stylesheet" href="./assets/css/nouislider.pips.css">
+    <link rel="stylesheet" href="./assets/css/tolips.css">
+    <link rel="stylesheet" href="./assets/css/jquery.bootstrap-touchspin.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.css">
+    <!-- Template styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
 
     <!-- main css -->
@@ -492,7 +513,34 @@ if (isset($_GET["logout"])) {
     </div>
 
 
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/waypoints.min.js"></script>
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/TweenMax.min.js"></script>
+    <script src="./assets/js/wow.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="./assets/js/swiper.min.js"></script>
+    <script src="./assets/js/typed-2.0.11.js"></script>
+    <script src="./assets/js/vegas.min.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/bootstrap-select.min.js"></script>
+    <script src="./assets/js/countdown.min.js"></script>
+    <script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="./assets/js/nouislider.min.js"></script>
+    <script src="./assets/js/isotope.js"></script>
+    <script src="./assets/js/appear.js"></script>
+    <script src="./assets/js/jarallax.js"></script>
+    <script src="./assets/js/jquery.bootstrap-touchspin.js"></script>
+    <script src="./assets/js/jquery-ui.js"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
 
+
+    <!-- template scripts -->
+    <script src="./assets/js/theme.js"></script>
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
