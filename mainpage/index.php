@@ -243,7 +243,8 @@ if (isset($_GET["logout"])) {
                                             <div class="flex justify-center">
                                                 <button>
                                                     <span>
-                                                        <a href="./listing-details.php">Get In Touch</a>
+                                                        <!-- <a href="./listing-details.php">Get In Touch</a> -->
+                                                        Get In Touch
                                                     </span>
                                                 </button>
                                             </div>
