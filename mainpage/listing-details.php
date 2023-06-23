@@ -428,7 +428,9 @@
                                     </div>
                                 </div>
                             </div> -->
-                            <div class="listing_details_amenities">
+
+                            <!-- here -->
+                            <!-- <div class="listing_details_amenities">
                                 <h3 class="listing_details_amenities_title">Amenities</h3>
                                 <div class="row">
                                     <div class="col-xl-4 col-lg-4 col-md-4">
@@ -458,8 +460,11 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
+                            </div> -->
+
+
+
+                            <!-- <div class="row">
 
                                 <div class="col-xl-12">
                                     <div class="listing_details_floor_plans">
@@ -532,11 +537,11 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-5">
+                    <!-- <div class="col-xl-4 col-lg-5">
                         <div class="listing_details_sidebar">
                             <div class="listing_details_sidebar_agent">
                                 <div class="listing_details_sidebar_agent_img">
@@ -593,7 +598,7 @@
                                 <button type="submit" class="thm-btn">Calculate</button>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -662,8 +667,9 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </footer>
+         -->
         <!--Site Footer One End-->
 
         <!--Site Footer Bottom Start-->
