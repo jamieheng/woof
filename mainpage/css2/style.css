@@ -303,7 +303,7 @@ li {
     right: 0;
     bottom: 0;
     z-index: 999991;
-    display: -webkit-box;
+    /* display: -webkit-box; */
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
