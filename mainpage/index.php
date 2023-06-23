@@ -23,7 +23,7 @@ if (isset($_GET["logout"])) {
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <!-- css template -->
-    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/animate.min.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
@@ -40,7 +40,7 @@ if (isset($_GET["logout"])) {
     <link rel="stylesheet" href="./assets/css/nouislider.pips.css">
     <link rel="stylesheet" href="./assets/css/tolips.css">
     <link rel="stylesheet" href="./assets/css/jquery.bootstrap-touchspin.css">
-    <link rel="stylesheet" href="./assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.css"> -->
     <!-- Template styles -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
