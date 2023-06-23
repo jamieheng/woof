@@ -59,7 +59,7 @@
                         <div class="header_top_one_inner clearfix">
                             <div class="header_top_one_logo_box float-left">
                                 <div class="header_top_one_logo">
-                                    <a href="index.html"><img src="./images/sublogo.png" alt=""></a>
+                                    <a href="index.html"><img src="./icons/logo.svg" alt=""></a>
                                 </div>
                             </div>
                             <div class="header_top_one_content_box float-right">
