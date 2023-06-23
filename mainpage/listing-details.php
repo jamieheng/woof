@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Listing Details - Shop House</title>
+    <title>Listing Details - Money</title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/180x180-apple.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/512x512.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/16x16.png">
@@ -19,27 +19,27 @@
 
 
     <!-- Css-->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/css/jarallax.css">
+    <link rel="stylesheet" href="./css2/animate.min.css">
+    <link rel="stylesheet" href="./css2/bootstrap.min.css">
+    <link rel="stylesheet" href="./css2/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css2/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css2/magnific-popup.css">
+    <link rel="stylesheet" href="./css2/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css2/swiper.min.css">
+    <link rel="stylesheet" href="./css2/bootstrap-select.min.css">
+    <link rel="stylesheet" href="./css2/jarallax.css">
 
-    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="assets/css/vegas.min.css">
-    <link rel="stylesheet" href="assets/css/nouislider.min.css">
-    <link rel="stylesheet" href="assets/css/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/css/tolips.css">
-    <link rel="stylesheet" href="assets/css/jquery.bootstrap-touchspin.css">
-    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="./css2/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="./css2/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="./css2/vegas.min.css">
+    <link rel="stylesheet" href="./css2/nouislider.min.css">
+    <link rel="stylesheet" href="./css2/nouislider.pips.css">
+    <link rel="stylesheet" href="./css2/tolips.css">
+    <link rel="stylesheet" href="./css2/jquery.bootstrap-touchspin.css">
+    <link rel="stylesheet" href="./css2/jquery-ui.css">
     <!-- Template styles -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="./css2/style.css">
+    <link rel="stylesheet" href="./css2/responsive.css">
 
 </head>
 
