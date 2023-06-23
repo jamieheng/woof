@@ -23,32 +23,11 @@ if (isset($_GET["logout"])) {
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <!-- css template -->
-    <link rel="stylesheet" href="./css2/animate.min.css">
-    <link rel="stylesheet" href="./css2/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="./css2/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="./css2/bootstrap-select.min.css">
-    <link rel="stylesheet" href="./css2/bootstrap.min.css">
-    <link rel="stylesheet" href="./css2/fontawesome-all.min.css">
-    <link rel="stylesheet" href="./css2/gilroy-fonts.css">
-    <link rel="stylesheet" href="./css2/jarallax.css">
-    <link rel="stylesheet" href="./css2/jquery-ui.css">
-    <link rel="stylesheet" href="./css2/jquery.bootstrap-touchspin.css">
-    <link rel="stylesheet" href="./css2/jquery.bxslider.css">
-    <link rel="stylesheet" href="./css2/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="./css2/magnific-popup.css">
-    <link rel="stylesheet" href="./css2/nouislider.min.css">
-    <link rel="stylesheet" href="./css2/nouislider.pips.css">
-    <link rel="stylesheet" href="./css2/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css2/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./css2/progresscircle.css">
-    <link rel="stylesheet" href="./css2/tolips.css">
-    <link rel="stylesheet" href="./css2/swiper.min.css">
-    <link rel="stylesheet" href="./css2/vegas.min.css">
+
 
     <!-- main css -->
     <link rel="stylesheet" href="./css/stylesheet.css">
-    <link rel="stylesheet" href="./css2/style.css">
-    <link rel="stylesheet" href="./css2/responsive.css">
+
 </head>
 
 <body>
