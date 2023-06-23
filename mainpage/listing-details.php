@@ -13,33 +13,32 @@
 
     <!-- Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 
 
     <!-- Css-->
-    <link rel="stylesheet" href="./css2/animate.min.css">
-    <link rel="stylesheet" href="./css2/bootstrap.min.css">
-    <link rel="stylesheet" href="./css2/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css2/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./css2/magnific-popup.css">
-    <link rel="stylesheet" href="./css2/fontawesome-all.min.css">
-    <link rel="stylesheet" href="./css2/swiper.min.css">
-    <link rel="stylesheet" href="./css2/bootstrap-select.min.css">
-    <link rel="stylesheet" href="./css2/jarallax.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="./assets/css/jarallax.css">
 
-    <link rel="stylesheet" href="./css2/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="./css2/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="./css2/vegas.min.css">
-    <link rel="stylesheet" href="./css2/nouislider.min.css">
-    <link rel="stylesheet" href="./css2/nouislider.pips.css">
-    <link rel="stylesheet" href="./css2/tolips.css">
-    <link rel="stylesheet" href="./css2/jquery.bootstrap-touchspin.css">
-    <link rel="stylesheet" href="./css2/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="./assets/css/vegas.min.css">
+    <link rel="stylesheet" href="./assets/css/nouislider.min.css">
+    <link rel="stylesheet" href="./assets/css/nouislider.pips.css">
+    <link rel="stylesheet" href="./assets/css/tolips.css">
+    <link rel="stylesheet" href="./assets/css/jquery.bootstrap-touchspin.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.css">
     <!-- Template styles -->
-    <link rel="stylesheet" href="./css2/style.css">
-    <link rel="stylesheet" href="./css2/responsive.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
 </head>
 
@@ -128,21 +127,21 @@
                                         <ul class=" main-nav__navigation-box float-left">
                                             <li class="dropdown ">
                                                 <a href="index.html" id="home">Home</a>
-                                          
+
                                                 <!-- /.sub-menu -->
                                             </li>
-    
+
                                             <li class="dropdown">
                                                 <a href="#">Pages</a>
                                                 <ul>
                                                     <li><a href="membership_plans.html">Membership</a></li>
                                                     <li><a href="/#aboutus">About Us</a></li>
-                                                    
+
                                                 </ul><!-- /.sub-menu -->
                                             </li>
                                             <li class="dropdown">
                                                 <a href="/#latest-property">Properties</a>
-                                                
+
                                             </li>
                                             <li class="dropdown">
                                                 <a href="#">Members</a>
@@ -151,7 +150,7 @@
                                                     <li><a href="agents.html">Agents</a></li>
                                                 </ul><!-- /.sub-menu -->
                                             </li>
-                                            
+
                                             <li>
                                                 <a href="contact.html">Contact</a>
                                             </li>
@@ -198,8 +197,7 @@
                         <!--Listings Details Main Image Box Single-->
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
-                                <a href="assets/images/resources/latest_properties_img_house3head.jpeg" class="img-popup"><img
-                                        src="assets/images/resources/latest_properties_img_house3head.jpeg" alt=""></a>
+                                <a href="assets/images/resources/latest_properties_img_house3head.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3head.jpeg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -207,8 +205,7 @@
                         <!--Listings Details Main Image Box Single-->
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
-                                <a href="assets/images/resources/latest_properties_img_house3a.jpeg" class="img-popup"><img
-                                        src="assets/images/resources/latest_properties_img_house3a.jpeg" alt=""></a>
+                                <a href="assets/images/resources/latest_properties_img_house3a.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3a.jpeg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -216,8 +213,7 @@
                         <!--Listings Details Main Image Box Single-->
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
-                                <a href="assets/images/resources/latest_properties_img_house3b.jpeg" class="img-popup"><img
-                                        src="assets/images/resources/latest_properties_img_house3b.jpeg" alt=""></a>
+                                <a href="assets/images/resources/latest_properties_img_house3b.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3b.jpeg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -225,8 +221,7 @@
                         <!--Listings Details Main Image Box Single-->
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
-                                <a href="assets/images/resources/latest_properties_img_house3c.jpeg" class="img-popup"><img
-                                        src="assets/images/resources/latest_properties_img_house3c.jpeg" alt=""></a>
+                                <a href="assets/images/resources/latest_properties_img_house3c.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3c.jpeg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -463,19 +458,16 @@
                                 </div>
                             </div>
                             <div class="row">
-                                
+
                                 <div class="col-xl-12">
                                     <div class="listing_details_floor_plans">
                                         <div class="listing_details_floor_plans_title">
                                             <h3>Floor Plans</h3>
                                         </div>
-                                        <ul id="accordion" class=" listing_details-accordion wow fadeInUp list-unstyled"
-                                            data-wow-duration="1500ms">
+                                        <ul id="accordion" class=" listing_details-accordion wow fadeInUp list-unstyled" data-wow-duration="1500ms">
                                             <li>
                                                 <div class="para-title">
-                                                    <div class="collapsed" role="button" data-toggle="collapse"
-                                                        data-target="#collapseTwo" aria-expanded="false"
-                                                        aria-controls="collapseTwo">
+                                                    <div class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                         <i class="fa fa-plus"></i>
                                                         <div class="listing_details_grand_floor bottom">
                                                             <div class="left">
@@ -487,8 +479,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div id="collapseTwo" class="collapse" role="button"
-                                                    aria-labelledby="collapseTwo" data-parent="#accordion">
+                                                <div id="collapseTwo" class="collapse" role="button" aria-labelledby="collapseTwo" data-parent="#accordion">
 
                                                     <div class="listing_details_floor_plans_text">
                                                         <p>There are many variations of passages the majority have
@@ -497,16 +488,13 @@
                                                             believable.</p>
                                                     </div>
                                                     <div class="listing_details_floor_plans_img">
-                                                        <img src="assets/images/resources/latest_properties_img_house3b.jpeg"
-                                                            alt="">
+                                                        <img src="assets/images/resources/latest_properties_img_house3b.jpeg" alt="">
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="para-title active">
-                                                    <div class="collapsed" role="button" data-toggle="collapse"
-                                                        data-target="#collapseOne" aria-expanded="false"
-                                                        aria-controls="collapseOne">
+                                                    <div class="collapsed" role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                                         <i class="fa fa-minus"></i>
                                                         <div class="listing_details_grand_floor bottom">
                                                             <div class="left">
@@ -518,8 +506,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div id="collapseOne" class="collapse show"
-                                                    aria-labelledby="collapseOne" data-parent="#accordion">
+                                                <div id="collapseOne" class="collapse show" aria-labelledby="collapseOne" data-parent="#accordion">
                                                     <div class="listing_details_floor_plans_text">
                                                         <p>There are many variations of passages the majority have
                                                             suffered
@@ -527,8 +514,7 @@
                                                             believable.</p>
                                                     </div>
                                                     <div class="listing_details_floor_plans_img">
-                                                        <img src="assets/images/resources/latest_properties_img_house3c.jpeg"
-                                                            alt="">
+                                                        <img src="assets/images/resources/latest_properties_img_house3c.jpeg" alt="">
                                                     </div>
                                                 </div>
                                             </li>
@@ -545,7 +531,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-5">
@@ -584,7 +570,7 @@
                                                 <a href="#">needhelp@company.com</a>
                                             </div>
                                         </li>
-                                        
+
                                     </ul>
                                     <div class="listing_details_sidebar_agent__social">
                                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -611,99 +597,99 @@
         </section>
         <!--Listing Details End-->
 
-   <!--Site Footer One Start-->
-   <footer class="site_footer" style="background-image: url(assets/images/resources/site_footer_top_bg_nisa.png)">
-    <div class="container">
-        <div class="site_footer_one_top">
-            <div class="row">
-                <div class="col-xl-3 col-lg-6 wow fadeInUp" data-wow-delay="00ms">
-                    <div class="footer-widget__column footer_widget__about">
-                        <div class="footer_logo">
-                            <a href="#home"><img src="assets/images/resources/footer_logo-mk.png" alt=""></a>
-                        </div>
-                        <div class="footer_widget_about_text">
-                            <p>Mekong Land Real Estate is the first company that provide you a cozy place to live in.</p>
-                        </div>
-                        <div class="footer_call_agent_box">
-                            <div class="icon">
-                                <span class="icon-phone-call"></span>
+        <!--Site Footer One Start-->
+        <footer class="site_footer" style="background-image: url(assets/images/resources/site_footer_top_bg_nisa.png)">
+            <div class="container">
+                <div class="site_footer_one_top">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-6 wow fadeInUp" data-wow-delay="00ms">
+                            <div class="footer-widget__column footer_widget__about">
+                                <div class="footer_logo">
+                                    <a href="#home"><img src="assets/images/resources/footer_logo-mk.png" alt=""></a>
+                                </div>
+                                <div class="footer_widget_about_text">
+                                    <p>Mekong Land Real Estate is the first company that provide you a cozy place to live in.</p>
+                                </div>
+                                <div class="footer_call_agent_box">
+                                    <div class="icon">
+                                        <span class="icon-phone-call"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Call Agent</p>
+                                        <a href="#">92 888 000 2222</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="text">
-                                <p>Call Agent</p>
-                                <a href="#">92 888 000 2222</a>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
+                            <div class="footer-widget__column footer_widget__explore clearfix">
+                                <div class="footer-widget__title">
+                                    <h3>Explore</h3>
+                                </div>
+                                <ul class="footer_widget__explore_list list-unstyled">
+                                    <li><a href="#" id="aboutus">About Us</a></li>
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Add Properties</a></li>
+                                    <li><a href="#">Pricing Packages</a></li>
+                                    <li><a href="#">Bookmarks</a></li>
+                                </ul>
+                                <ul class="footer_widget__explore_list two list-unstyled">
+                                    <li><a href="#">Our Agents</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-8 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="footer-widget__column footer_widget__newsletter">
+                                <div class="footer-widget__title">
+                                    <h3>Newsletter</h3>
+                                </div>
+                                <form action="#" class="footer_form">
+                                    <div class="footer_input_box">
+                                        <input type="email" name="email" placeholder="Email Address">
+                                        <button type="submit" class="button">Subscribe</button>
+                                    </div>
+                                </form>
+                                <div class="footer_widget__newsletter_bottom">
+                                    <p>Prek Leap, Phnom Penh. Cambodia</p>
+                                    <a href=#>mekongland@realestate.com</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
-                    <div class="footer-widget__column footer_widget__explore clearfix">
-                        <div class="footer-widget__title">
-                            <h3>Explore</h3>
-                        </div>
-                        <ul class="footer_widget__explore_list list-unstyled">
-                            <li><a href="#" id="aboutus">About Us</a></li>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Add Properties</a></li>
-                            <li><a href="#">Pricing Packages</a></li>
-                            <li><a href="#">Bookmarks</a></li>
-                        </ul>
-                        <ul class="footer_widget__explore_list two list-unstyled">
-                            <li><a href="#">Our Agents</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-8 wow fadeInUp" data-wow-delay="300ms">
-                    <div class="footer-widget__column footer_widget__newsletter">
-                        <div class="footer-widget__title">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <form action="#" class="footer_form">
-                            <div class="footer_input_box">
-                                <input type="email" name="email" placeholder="Email Address">
-                                <button type="submit" class="button">Subscribe</button>
+            </div>
+        </footer>
+        <!--Site Footer One End-->
+
+        <!--Site Footer Bottom Start-->
+        <div class="site_footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="site_footer_inner">
+                            <div class="site_footer_left">
+                                <p>© Mock up by <a href="#">Veiy Sokheng</a></p>
                             </div>
-                        </form>
-                        <div class="footer_widget__newsletter_bottom">
-                            <p>Prek Leap, Phnom Penh. Cambodia</p>
-                            <a href=#>mekongland@realestate.com</a>
+                            <div class="site_footer__social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-dribbble"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
-<!--Site Footer One End-->
-
-<!--Site Footer Bottom Start-->
-<div class="site_footer_bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="site_footer_inner">
-                    <div class="site_footer_left">
-                        <p>© Mock up by <a href="#">Veiy Sokheng</a></p>
-                    </div>
-                    <div class="site_footer__social">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#"><i class="fab fa-dribbble"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Site Footer Bottom End-->
+        <!--Site Footer Bottom End-->
 
 
 
 
-</div><!-- /.page-wrapper -->
+    </div><!-- /.page-wrapper -->
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
 
