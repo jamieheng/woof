@@ -328,24 +328,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-8 col-lg-7">
-                        <div class="listing_details_left">
-                            <!-- <div class="listing_details_text"> -->
-                            <p class="text_1">Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Etiam ultricies
-                                nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                                Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
-                                adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
-                                hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien
-                                ut libero venenatis faucibus. </p>
-                            <p class="text_2">Nullam quis ante tiam sit amet orci eget eros faucibus tincidunt.
-                                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
-                                massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                                In enim justo, rhoncus ut imperdiet venenatis vitae, justo. Nullam dictum felis eu
-                                pede mollis pretium.</p>
-                            <!-- </div> -->
+                        <!-- <div class="listing_details_left"> -->
+                        <!-- <div class="listing_details_text"> -->
+                        <p class="text_1">Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Etiam ultricies
+                            nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                            Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
+                            adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
+                            hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien
+                            ut libero venenatis faucibus. </p>
+                        <p class="text_2">Nullam quis ante tiam sit amet orci eget eros faucibus tincidunt.
+                            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
+                            massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+                            In enim justo, rhoncus ut imperdiet venenatis vitae, justo. Nullam dictum felis eu
+                            pede mollis pretium.</p>
+                        <!-- </div> -->
 
-                            <!-- here -->
-                            <!-- <div class="listings_details_features">
+                        <!-- here -->
+                        <!-- <div class="listings_details_features">
                                 <div class="listings_details_features_title">
                                     <h3>Features List</h3>
                                 </div>
@@ -429,8 +429,8 @@
                                 </div>
                             </div> -->
 
-                            <!-- here -->
-                            <!-- <div class="listing_details_amenities">
+                        <!-- here -->
+                        <!-- <div class="listing_details_amenities">
                                 <h3 class="listing_details_amenities_title">Amenities</h3>
                                 <div class="row">
                                     <div class="col-xl-4 col-lg-4 col-md-4">
@@ -464,7 +464,7 @@
 
 
 
-                            <!-- <div class="row">
+                        <!-- <div class="row">
 
                                 <div class="col-xl-12">
                                     <div class="listing_details_floor_plans">
@@ -539,7 +539,7 @@
                                 </div>
                             </div> -->
 
-                        </div>
+                        <!-- </div> -->
                     </div>
                     <!-- <div class="col-xl-4 col-lg-5">
                         <div class="listing_details_sidebar">
