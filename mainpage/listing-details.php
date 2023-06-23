@@ -598,7 +598,7 @@
         <!--Listing Details End-->
 
         <!--Site Footer One Start-->
-        <footer class="site_footer" style="background-image: url(assets/images/resources/site_footer_top_bg_nisa.png)">
+        <!-- <footer class="site_footer" style="background-image: url(assets/images/resources/site_footer_top_bg_nisa.png)">
             <div class="container">
                 <div class="site_footer_one_top">
                     <div class="row">
@@ -660,7 +660,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </footer>
         <!--Site Footer One End-->
 
