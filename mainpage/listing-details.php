@@ -58,9 +58,9 @@
                     <div class="container">
                         <div class="header_top_one_inner clearfix">
                             <div class="header_top_one_logo_box float-left">
-                                <!-- <div class="header_top_one_logo">
+                                <div class="header_top_one_logo">
                                     <a href="index.html"><img src="./icons/logo.svg" alt=""></a>
-                                </div> -->
+                                </div>
                             </div>
                             <div class="header_top_one_content_box float-right">
                                 <!-- <div class="header_top_one_content_box_top clearfix">
@@ -77,11 +77,15 @@
                                 </div> -->
                                 <div class="header_top_one_content_box_bottom">
                                     <div class="header_top_one_content_box_bottom_inner clearfix">
-                                        <div class="header_top_one_logo">
-                                            <a href="index.php"><img src="./icons/logo.svg" alt=""></a>
+                                        <div class="header_top_one_content_box_bottom__social_box">
+                                            <div class="header_top_one_content_box_bottom__social">
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                                <a href="#"><i class="fab fa-dribbble"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                            </div>
                                         </div>
                                         <div class="header_top_one_content_box_bottom_contact_info">
-
                                             <ul class="header_top_one_content_box_bottom_contact_info_list list-unstyled">
                                                 <li>
                                                     <div class="icon">
