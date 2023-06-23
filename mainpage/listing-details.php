@@ -59,11 +59,11 @@
                         <div class="header_top_one_inner clearfix">
                             <div class="header_top_one_logo_box float-left">
                                 <div class="header_top_one_logo">
-                                    <a href="index.html"><img src="./images/yourwoof180x180-apple.png" alt=""></a>
+                                    <a href="index.html"><img src="./images/yourwoof16x16.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="header_top_one_content_box float-right">
-                                <div class="header_top_one_content_box_top clearfix">
+                                <!-- <div class="header_top_one_content_box_top clearfix">
                                     <div class="header_top_one_content_box_top_left float-left">
                                         <p>Welcome to Mekong Land</p>
                                     </div>
@@ -74,7 +74,7 @@
                                             <li><a href="#">My Account</a></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="header_top_one_content_box_bottom">
                                     <div class="header_top_one_content_box_bottom_inner clearfix">
                                         <div class="header_top_one_content_box_bottom__social_box">
