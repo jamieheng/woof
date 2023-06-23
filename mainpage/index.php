@@ -47,15 +47,15 @@ if (isset($_GET["logout"])) {
 
     <!-- main css -->
     <link rel="stylesheet" href="./css/stylesheet.css">
-    <!-- <link rel="stylesheet" href="./css2/style.css">
-    <link rel="stylesheet" href="./css2/responsive.css"> -->
+    <link rel="stylesheet" href="./css2/style.css">
+    <link rel="stylesheet" href="./css2/responsive.css">
 </head>
 
 <body>
 
-    <!-- <div class="preloader">
+    <div class="preloader">
         <img src="./images/yourwoof180x180-apple.png" class="preloader__image" alt="">
-    </div> -->
+    </div>
 
 
     <div class="main-wrapper">
