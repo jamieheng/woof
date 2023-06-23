@@ -78,11 +78,14 @@
                                 <div class="header_top_one_content_box_bottom">
                                     <div class="header_top_one_content_box_bottom_inner clearfix">
                                         <div class="header_top_one_content_box_bottom__social_box">
-                                            <div class="header_top_one_logo">
-                                                <a href="index.html"><img src="./icons/logo.svg" alt=""></a>
-                                            </div>
+                                            <!-- <div class="header_top_one_logo">
+                                                <a href="index.php"><img src="./icons/logo.svg" alt=""></a>
+                                            </div> -->
                                         </div>
                                         <div class="header_top_one_content_box_bottom_contact_info">
+                                            <div class="header_top_one_logo">
+                                                <a href="index.php"><img src="./icons/logo.svg" alt=""></a>
+                                            </div>
                                             <ul class="header_top_one_content_box_bottom_contact_info_list list-unstyled">
                                                 <li>
                                                     <div class="icon">
