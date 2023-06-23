@@ -32,10 +32,6 @@ if (isset($_GET["logout"])) {
 
 <body>
 
-    <div class="preloader">
-        <img src="./images/yourwoof180x180-apple.png" class="preloader__image" alt="">
-    </div>
-
 
     <div class="main-wrapper">
 
