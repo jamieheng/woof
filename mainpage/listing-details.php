@@ -343,7 +343,9 @@
                                     In enim justo, rhoncus ut imperdiet venenatis vitae, justo. Nullam dictum felis eu
                                     pede mollis pretium.</p>
                             </div>
-                            <div class="listings_details_features">
+
+                            <!-- here -->
+                            <!-- <div class="listings_details_features">
                                 <div class="listings_details_features_title">
                                     <h3>Features List</h3>
                                 </div>
@@ -425,7 +427,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="listing_details_amenities">
                                 <h3 class="listing_details_amenities_title">Amenities</h3>
                                 <div class="row">
