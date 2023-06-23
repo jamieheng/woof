@@ -114,11 +114,11 @@
                     </div>
                 </div>
 
-                <header class="main-nav__header-one">
+                <!-- <header class="main-nav__header-one">
                     <div class="container">
                         <nav class="header-navigation one stricky">
                             <div class="container-box clearfix">
-                                <!-- Brand and toggle get grouped for better mobile display -->
+                                
                                 <div class="main-nav__left main-nav__left_one float-left">
                                     <a href="#" class="side-menu__toggler">
                                         <i class="fa fa-bars"></i>
@@ -128,7 +128,7 @@
                                             <li class="dropdown ">
                                                 <a href="index.html" id="home">Home</a>
 
-                                                <!-- /.sub-menu -->
+                                               
                                             </li>
 
                                             <li class="dropdown">
@@ -137,7 +137,7 @@
                                                     <li><a href="membership_plans.html">Membership</a></li>
                                                     <li><a href="/#aboutus">About Us</a></li>
 
-                                                </ul><!-- /.sub-menu -->
+                                                </ul>
                                             </li>
                                             <li class="dropdown">
                                                 <a href="/#latest-property">Properties</a>
@@ -148,14 +148,14 @@
                                                 <ul>
                                                     <li><a href="/#service">Services</a></li>
                                                     <li><a href="agents.html">Agents</a></li>
-                                                </ul><!-- /.sub-menu -->
+                                                </ul>
                                             </li>
 
                                             <li>
                                                 <a href="contact.html">Contact</a>
                                             </li>
                                         </ul>
-                                    </div><!-- /.navbar-collapse -->
+                                    </div>
                                 </div>
                                 <div class="main-nav__right main-nav__right_one float-right">
                                     <div class="header_btn_1">
@@ -175,12 +175,12 @@
                             </div>
                         </nav>
                     </div>
-                </header>
+                </header> -->
             </div>
         </div>
 
         <!-- Listings Details Main Image Box Start-->
-        <section class="listings_details_main_image_box">
+        <!-- <section class="listings_details_main_image_box">
             <div class="container-full-width">
                 <div class="thm__owl-carousel owl-carousel owl-theme" data-options='{"margin":10, "smartSpeed": 700, "dots": false, "items": 3, "responsive": {
                     "0": {
@@ -194,7 +194,7 @@
                     }
                 }}'>
                     <div class="item">
-                        <!--Listings Details Main Image Box Single-->
+                       
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
                                 <a href="assets/images/resources/latest_properties_img_house3head.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3head.jpeg" alt=""></a>
@@ -202,7 +202,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <!--Listings Details Main Image Box Single-->
+                       
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
                                 <a href="assets/images/resources/latest_properties_img_house3a.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3a.jpeg" alt=""></a>
@@ -210,7 +210,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <!--Listings Details Main Image Box Single-->
+                        
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
                                 <a href="assets/images/resources/latest_properties_img_house3b.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3b.jpeg" alt=""></a>
@@ -218,7 +218,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <!--Listings Details Main Image Box Single-->
+                        
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
                                 <a href="assets/images/resources/latest_properties_img_house3c.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3c.jpeg" alt=""></a>
@@ -227,7 +227,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Listings Details Main Image Box End-->
 
         <!--Listing Details Top Start-->
