@@ -180,7 +180,7 @@
         </div>
 
         <!-- Listings Details Main Image Box Start-->
-        <!-- <section class="listings_details_main_image_box">
+        <section class="listings_details_main_image_box">
             <div class="container-full-width">
                 <div class="thm__owl-carousel owl-carousel owl-theme" data-options='{"margin":10, "smartSpeed": 700, "dots": false, "items": 3, "responsive": {
                     "0": {
@@ -194,7 +194,7 @@
                     }
                 }}'>
                     <div class="item">
-                       
+
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
                                 <a href="assets/images/resources/latest_properties_img_house3head.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3head.jpeg" alt=""></a>
@@ -202,7 +202,7 @@
                         </div>
                     </div>
                     <div class="item">
-                       
+
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
                                 <a href="assets/images/resources/latest_properties_img_house3a.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3a.jpeg" alt=""></a>
@@ -210,7 +210,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        
+
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
                                 <a href="assets/images/resources/latest_properties_img_house3b.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3b.jpeg" alt=""></a>
@@ -218,7 +218,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        
+
                         <div class="listings_details_main_image_box_single">
                             <div class="listings_details_main_image_box__img">
                                 <a href="assets/images/resources/latest_properties_img_house3c.jpeg" class="img-popup"><img src="assets/images/resources/latest_properties_img_house3c.jpeg" alt=""></a>
@@ -227,11 +227,11 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- Listings Details Main Image Box End-->
 
         <!--Listing Details Top Start-->
-        <section class="listing_details_top">
+        <!-- <section class="listing_details_top">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4">
@@ -285,7 +285,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--Listing Details Top End-->
 
         <!--Listing Details Bottom End-->
