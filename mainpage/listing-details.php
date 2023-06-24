@@ -610,75 +610,81 @@
         <!--Listing Details End-->
 
         <!--Site Footer One Start-->
-        <!-- <footer class="site_footer" style="background-image: url(assets/images/resources/site_footer_top_bg_nisa.png)">
+        <footer>
             <div class="container">
-                <div class="site_footer_one_top">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-6 wow fadeInUp" data-wow-delay="00ms">
-                            <div class="footer-widget__column footer_widget__about">
-                                <div class="footer_logo">
-                                    <a href="#home"><img src="assets/images/resources/footer_logo-mk.png" alt=""></a>
-                                </div>
-                                <div class="footer_widget_about_text">
-                                    <p>Mekong Land Real Estate is the first company that provide you a cozy place to live in.</p>
-                                </div>
-                                <div class="footer_call_agent_box">
-                                    <div class="icon">
-                                        <span class="icon-phone-call"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Call Agent</p>
-                                        <a href="#">92 888 000 2222</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
-                            <div class="footer-widget__column footer_widget__explore clearfix">
-                                <div class="footer-widget__title">
-                                    <h3>Explore</h3>
-                                </div>
-                                <ul class="footer_widget__explore_list list-unstyled">
-                                    <li><a href="#" id="aboutus">About Us</a></li>
-                                    <li><a href="#">My Account</a></li>
-                                    <li><a href="#">Add Properties</a></li>
-                                    <li><a href="#">Pricing Packages</a></li>
-                                    <li><a href="#">Bookmarks</a></li>
-                                </ul>
-                                <ul class="footer_widget__explore_list two list-unstyled">
-                                    <li><a href="#">Our Agents</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">FAQs</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-8 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="footer-widget__column footer_widget__newsletter">
-                                <div class="footer-widget__title">
-                                    <h3>Newsletter</h3>
-                                </div>
-                                <form action="#" class="footer_form">
-                                    <div class="footer_input_box">
-                                        <input type="email" name="email" placeholder="Email Address">
-                                        <button type="submit" class="button">Subscribe</button>
-                                    </div>
-                                </form>
-                                <div class="footer_widget__newsletter_bottom">
-                                    <p>Prek Leap, Phnom Penh. Cambodia</p>
-                                    <a href=#>mekongland@realestate.com</a>
-                                </div>
-                            </div>
-                        </div>
+                <div class="box">
+                    <h3>About us</h3>
+                    <p>Yourwoof was created by Veiy Sokheng and In Sothiry, sophomores(GEN8) of IT Engineering Department, RUPP
+                        est. 2023 for their project practicum.
+                    </p>
+                    <button class="btn btn-primary">Read More</button>
+                </div>
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#adopt">Adopt</a>
+                        </li>
+                        <li>
+                            <a href="#getinvolved">Get Involved</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Follow Us</h3>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/codersgyan">
+                                    <img src="./icons/facebook.svg" alt="">
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/CoderGyan">
+                                    <img src="./icons/twitter.svg" alt="">
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./icons/google.svg" alt="">
+                                    <span>Google +</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/codersgyan/">
+                                    <img src="./icons/instagram.svg" alt="">
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+
             </div>
         </footer>
-         -->
+        <footer class="copyright">
+            <div>
+                Copyright © 2023 .All rights reserved by <a href="https://www.instagram.com/fromm_hengie/">Veiy Sokheng </a>
+                & <a href="https://www.instagram.com/insothiry/">In Sothiry </a>
+            </div>
+        </footer>
         <!--Site Footer One End-->
 
         <!--Site Footer Bottom Start-->
-        <div class="site_footer_bottom">
+        <!-- <div class="site_footer_bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -696,7 +702,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--Site Footer Bottom End-->
 
 
