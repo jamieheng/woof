@@ -42,6 +42,7 @@ if (isset($_GET["logout"])) {
     <link rel="stylesheet" href="./assets/css/jquery.bootstrap-touchspin.css">
     <link rel="stylesheet" href="./assets/css/jquery-ui.css"> -->
     <!-- Template styles -->
+    
     <!-- <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css"> -->
 
