@@ -22,9 +22,15 @@ if (isset($_GET["logout"])) {
     <link rel="icon" type="image/icon" href="./images/yourwoof512x512.png">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
-    
+
     <!-- main css -->
     <link rel="stylesheet" href="./css/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
 
 </head>
 
@@ -335,20 +341,28 @@ if (isset($_GET["logout"])) {
                     <div class="container">
                         <h1 class="section-heading text-pure">Number of Dogs in our shelter</h1>
                         <div class="timer">
-                            <div>
-                                <span>05</span>
+                            <!-- <div id="counter-box">
+                                <h3>TITLE</h3><span class="counter" data-number="150000"></span>
+                                <p>FIRST LINE OF COPY</p>
+                            </div> -->
+                            <div id="counter-box">
+                                <!-- <span class="counter" data-number="150000">05</span> -->
+                                <span class="counter-value" data-count="05">0</span>
                                 <span>Male</span>
                             </div>
-                            <div>
-                                <span>12</span>
+                            <div id="counter-box">
+                                <!-- <span class="counter" data-number="150000">12</span> -->
+                                <span class="counter-value" data-count="12">0</span>
                                 <span>Female</span>
                             </div>
-                            <div>
-                                <span>03</span>
+                            <div id="counter-box">
+                                <!-- <span class="counter" data-number="150000">03</span> -->
+                                <span class="counter-value" data-count="03">0</span>
                                 <span>Under 6 months old</span>
                             </div>
-                            <div>
-                                <span>02</span>
+                            <div id="counter-box">
+                                <!-- <span class="counter" data-number="150000">02</span> -->
+                                <span class="counter-value" data-count="02">0</span>
                                 <span>Injured</span>
                             </div>
                         </div>
@@ -491,12 +505,55 @@ if (isset($_GET["logout"])) {
 
 
 
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
 
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script> -->
+    <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
     <script src="js/app.js"></script>
+    <!-- <script src="js/numberCounterScroll.js"></script> -->
 </body>
+
+<script>
+    $(document).ready(function() {
+        $('.counter').counterUp({
+            delay: 100,
+            time: 1200
+        })
+    })
+</script>
+<!-- <script>
+    var a = 0;
+    $(window).scroll(function() {
+        var oTop = $('#counter').offset().top - window.innerHeight;
+        if (a == 0 && $(window).scrollTop() > oTop) {
+            $('.counter-value').each(function() {
+                var $this = $(this),
+                    countTo = $this.attr('data-count');
+                $({
+                    countNum: $this.text()
+                }).animate({
+                        countNum: countTo
+                    },
+
+                    {
+
+                        duration: 7000,
+                        easing: 'swing',
+                        step: function() {
+                            $this.text(Math.floor(this.countNum));
+                        },
+                        complete: function() {
+                            $this.text(this.countNum);
+                            //alert('finished');
+                        }
+
+                    });
+            });
+            a = 1;
+        }
+
+    });
+</script> -->
 
 </html>
