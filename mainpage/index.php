@@ -12,6 +12,7 @@ if (isset($_GET["logout"])) {
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,12 +25,17 @@ if (isset($_GET["logout"])) {
 
 
     <!-- main css -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./css/stylesheet.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script> -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script> -->
+
 
 
 </head>
@@ -239,20 +245,12 @@ if (isset($_GET["logout"])) {
 
                                             <div class="price text-center">
                                                 <p>
-
                                                     <?php echo substr($row['product_desc'], 0, 1000); ?>
-
                                                 </p>
                                             </div>
                                             <div class="flex justify-center">
                                                 <button>
-                                                    <a href="detail.php">
-                                                        <span>
-                                                            <!-- <a href="./listing-details.php">Get In Touch</a> -->
-                                                            Get In Touch
-                                                        </span>
-                                                    </a>
-
+                                                    <a style="text-decoration: none; color: #FEFEFE; hover: #BF94E4;" href=" list.php?product_id=<?php echo $row['product_id'] ?>">Get In Touch</a>
                                                 </button>
                                             </div>
                                         </div>
@@ -341,34 +339,38 @@ if (isset($_GET["logout"])) {
                     <div class="container">
                         <h1 class="section-heading text-pure">Number of Dogs in our shelter</h1>
                         <div class="timer">
-                            <!-- <div id="counter-box">
-                                <h3>TITLE</h3><span class="counter" data-number="150000"></span>
-                                <p>FIRST LINE OF COPY</p>
+                            <!-- <div id="counter-container">
+                                <span class="count">6,000</span>
+                                <span class="count">600</span>
+                                <span class="count">60</span>
                             </div> -->
-                            <div id="counter-box">
+                            <div id="counter-container">
                                 <!-- <span class="counter" data-number="150000">05</span> -->
-                                <span class="counter-value" data-count="05">0</span>
+                                <!-- <span class="count">100</span> -->
+                                <span class='numscroller' data-min='1' data-max='3' data-delay='5' data-increment='10'>3</span>
                                 <span>Male</span>
                             </div>
-                            <div id="counter-box">
+                            <div id="counter-container">
                                 <!-- <span class="counter" data-number="150000">12</span> -->
-                                <span class="counter-value" data-count="12">0</span>
+                                <!-- <span class="count">10</span> -->
+                                <span class='numscroller' data-min='1' data-max='1' data-delay='5' data-increment='10'>1</span>
                                 <span>Female</span>
                             </div>
-                            <div id="counter-box">
+                            <div id="counter-container">
                                 <!-- <span class="counter" data-number="150000">03</span> -->
-                                <span class="counter-value" data-count="03">0</span>
+                                <!-- <span class="count">02</span> -->
+                                <span class='numscroller' data-min='1' data-max='1' data-delay='5' data-increment='10'>1</span>
                                 <span>Under 6 months old</span>
                             </div>
-                            <div id="counter-box">
+                            <div id="counter-container">
                                 <!-- <span class="counter" data-number="150000">02</span> -->
-                                <span class="counter-value" data-count="02">0</span>
+                                <!-- <span class="count">20</span> -->
+                                <span class='numscroller' data-min='1' data-max='0' data-delay='5' data-increment='10'>0</span>
                                 <span>Injured</span>
                             </div>
                         </div>
                     </div>
                 </section>
-
 
 
 
@@ -396,9 +398,8 @@ if (isset($_GET["logout"])) {
                     <div class="contact-info-wrapper">
                         <h1 class="section-heading"><a name="contact">Contact Us</a></h1>
 
-
                         <div class="contact-info">
-                            <div>
+                            <div >
                                 <div>
                                     <img src="./icons/phone-2.svg" alt="">
                                     <div>
@@ -420,11 +421,15 @@ if (isset($_GET["logout"])) {
                                         <span>Mon - Sat (8.00am - 5.00pm)</span>
                                     </div>
                                 </div>
+                                <div>
+                                    <div class="embed-responsive embed-responsive-100x400px">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15665.149290361564!2d104.86637877523721!3d11.579059304406625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2sRUPP%20(Royal%20University%20of%20Phnom%20Penh)!5e0!3m2!1sen!2skh!4v1689150856748!5m2!1sen!2skh" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                     </div>
-
 
                 </section>
 
@@ -508,52 +513,10 @@ if (isset($_GET["logout"])) {
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
 
     <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
-    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script> -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
     <script src="js/app.js"></script>
-    <!-- <script src="js/numberCounterScroll.js"></script> -->
+    <script src="js/numberCounterScroll.js"></script>
 </body>
-
-<script>
-    $(document).ready(function() {
-        $('.counter').counterUp({
-            delay: 100,
-            time: 1200
-        })
-    })
-</script>
-<!-- <script>
-    var a = 0;
-    $(window).scroll(function() {
-        var oTop = $('#counter').offset().top - window.innerHeight;
-        if (a == 0 && $(window).scrollTop() > oTop) {
-            $('.counter-value').each(function() {
-                var $this = $(this),
-                    countTo = $this.attr('data-count');
-                $({
-                    countNum: $this.text()
-                }).animate({
-                        countNum: countTo
-                    },
-
-                    {
-
-                        duration: 7000,
-                        easing: 'swing',
-                        step: function() {
-                            $this.text(Math.floor(this.countNum));
-                        },
-                        complete: function() {
-                            $this.text(this.countNum);
-                            //alert('finished');
-                        }
-
-                    });
-            });
-            a = 1;
-        }
-
-    });
-</script> -->
 
 </html>

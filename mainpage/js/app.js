@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
    $('.food-slider').slick({
       autoplay:true,
      slidesToShow:3,
@@ -24,6 +25,11 @@ $(document).ready(function(){
 
    $('.nav-trigger').click(function(){
       $('.site-content-wrapper').toggleClass('scaled');
+   })
+
+   
+   $('.btn-interest').click(function(){
+      alert('yes')
    })
 });
 
