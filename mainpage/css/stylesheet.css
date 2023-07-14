@@ -68,7 +68,7 @@
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
-
+#more {display: none;}
 /* Reset  */
 *{
     padding:0;

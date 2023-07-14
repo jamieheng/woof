@@ -1,6 +1,7 @@
 const passwordInput = document.querySelector(".pass-field input");
 const eyeIcon = document.querySelector(".pass-field i");
 const requirementList = document.querySelectorAll(".requirement-list li");
+alert("Hello! I am an alert box!!");
 
 // An array of password requirements with corresponding 
 // regular expressions and index of the requirement list item

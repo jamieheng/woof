@@ -68,7 +68,7 @@ if (isset($_GET["logout"])) {
                         </li>
 
                         <li>
-                            <a href="#donate">DONATE</a>
+                            <a href="#donate">CART</a>
                         </li>
                         <li>
                             <a href="#contact">CONTACT US</a>
@@ -195,7 +195,9 @@ if (isset($_GET["logout"])) {
                             <a href="#adopt">ADOPT</a>
                             <a href="#rescue">RESCUE</a>
                             <a href="#getinvolved">GET INVOLVED</a>
-                            <a href="#donate">DONATE</a>
+                            <a href="cart_list.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                                </svg> CART </a>
                             <a href="#contact">CONTACT US</a>
                         </div>
                     </div>
@@ -250,7 +252,7 @@ if (isset($_GET["logout"])) {
                                             </div>
                                             <div class="flex justify-center">
                                                 <button>
-                                                    <a style="text-decoration: none; color: #FEFEFE; hover: #BF94E4;" href=" list.php?product_id=<?php echo $row['product_id'] ?>">Get In Touch</a>
+                                                    <a style="text-decoration: none; color: #FEFEFE; hover: #BF94E4;" href=" item_list.php?product_id=<?php echo $row['product_id'] ?>">Get In Touch</a>
                                                 </button>
                                             </div>
                                         </div>
@@ -281,9 +283,7 @@ if (isset($_GET["logout"])) {
                                     YourWoof has animals in need of good homes. They can be abandoned, strays or
                                     sometimes, animals that have challenging conditions and who really need dedicated
                                     people willing to look after them
-                                    <span id="dots"> ...</span>
-
-                                    <span id="more">
+                                    <span id="dots">...</span><span id="more">
                                         Also, if you cannot adopt any of the animals we often have available at our
                                         Clinic,
                                         we always need people that are willing to Foster a cat or a dog until such time
@@ -295,13 +295,29 @@ if (isset($_GET["logout"])) {
                                         We update our website regularly but to see our most up to date list of dogs
                                         available for adoption please visit our shelter or give us a call.</span>
                                 </p>
-                                <button class="btn btn-primary" onclick="myFunction()" id="myBtn">Read less</button>
+                                <button class="btn btn-primary" onclick="myFunction()" id="myBtn">Read more</button>
+
+                                <script>
+                                    function myFunction() {
+                                        var dots = document.getElementById("dots");
+                                        var moreText = document.getElementById("more");
+                                        var btnText = document.getElementById("myBtn");
+
+                                        if (dots.style.display === "none") {
+                                            dots.style.display = "inline";
+                                            btnText.innerHTML = "Read more";
+                                            moreText.style.display = "none";
+                                        } else {
+                                            dots.style.display = "none";
+                                            btnText.innerHTML = "Read less";
+                                            moreText.style.display = "inline";
+                                        }
+                                    }
+                                </script>
                             </div>
                         </div>
                     </div>
                 </section>
-
-
 
 
 
@@ -397,9 +413,8 @@ if (isset($_GET["logout"])) {
                 <section class="contact-us flex">
                     <div class="contact-info-wrapper">
                         <h1 class="section-heading"><a name="contact">Contact Us</a></h1>
-
                         <div class="contact-info">
-                            <div >
+                            <div>
                                 <div>
                                     <img src="./icons/phone-2.svg" alt="">
                                     <div>
@@ -423,7 +438,7 @@ if (isset($_GET["logout"])) {
                                 </div>
                                 <div>
                                     <div class="embed-responsive embed-responsive-100x400px">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15665.149290361564!2d104.86637877523721!3d11.579059304406625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2sRUPP%20(Royal%20University%20of%20Phnom%20Penh)!5e0!3m2!1sen!2skh!4v1689150856748!5m2!1sen!2skh" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15665.149290361564!2d104.86637877523721!3d11.579059304406625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2sRUPP%20(Royal%20University%20of%20Phnom%20Penh)!5e0!3m2!1sen!2skh!4v1689150856748!5m2!1sen!2skh" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                 </div>
                             </div>
