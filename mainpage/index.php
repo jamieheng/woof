@@ -124,10 +124,20 @@ if (isset($_GET["logout"])) {
 
 
                         <div class="auth flex items-center">
+
+                            <a href="./cart_list.php" style="color: aliceblue; text-decoration: none; "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
+                                    <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
+                                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                </svg> Cart <span style="color: #BF94E4;">0</span> </a>
+
+                            <span class="divider">|</span>
+
+
                             <?php
                             if (isset($_SESSION['username'])) {
                             ?>
                                 <div>
+
 
                                     <a href="#">
                                         <?php echo ($_SESSION['username']); ?>
@@ -141,6 +151,7 @@ if (isset($_GET["logout"])) {
                             <?php
                             } else {
                             ?>
+
                                 <div>
                                     <img src="./icons/user-icon.svg" alt="">
                                     <a href="/woof/login.php">Log in</a>
@@ -195,9 +206,8 @@ if (isset($_GET["logout"])) {
                             <a href="#adopt">ADOPT</a>
                             <a href="#rescue">RESCUE</a>
                             <a href="#getinvolved">GET INVOLVED</a>
-                            <a href="cart_list.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
-                                </svg> CART </a>
+                            <a href="#">
+                                DONATE</a>
                             <a href="#contact">CONTACT US</a>
                         </div>
                     </div>
@@ -222,6 +232,7 @@ if (isset($_GET["logout"])) {
 
                     </div>
                 </header>
+
 
                 <section class="top-products">
                     <div class="container">
@@ -252,7 +263,7 @@ if (isset($_GET["logout"])) {
                                             </div>
                                             <div class="flex justify-center">
                                                 <button>
-                                                    <a style="text-decoration: none; color: #FEFEFE; hover: #BF94E4;" href=" item_list.php?product_id=<?php echo $row['product_id'] ?>">Get In Touch</a>
+                                                    <a style="text-decoration: none; " onMouseOver="this.style.color='#BF94E4'" onMouseOut="this.style.color='#FEFEFE'" href=" item_list.php?product_id=<?php echo $row['product_id'] ?>">Get In Touch</a>
                                                 </button>
                                             </div>
                                         </div>
@@ -267,6 +278,7 @@ if (isset($_GET["logout"])) {
                     </div>
 
                 </section>
+
 
 
                 <section class="about-meal">
@@ -325,9 +337,7 @@ if (isset($_GET["logout"])) {
                 <section class="our-services">
                     <div class="container">
                         <h1 class="section-heading"><a name="getinvolved">Get Involved</a></h1>
-
                         <div class="card-wrapper flex">
-
                             <div class="service-card magic-shadow-sm">
                                 <img src="./images/sponsor.png" alt="">
                                 <h2 class="text-primary">Sponsor an Animal</h2>
@@ -335,7 +345,6 @@ if (isset($_GET["logout"])) {
                                     for them .</p>
                                 <button class="btn btn-primary">Learn More</button>
                             </div>
-
                             <div class="service-card magic-shadow-sm">
                                 <img src="./images/vol.png" alt="">
                                 <h2 class="text-primary">Volunteer</h2>
@@ -343,11 +352,10 @@ if (isset($_GET["logout"])) {
                                     spread the word.</p>
                                 <button class="btn btn-primary">Learn More</button>
                             </div>
-
-
                         </div>
                     </div>
                 </section>
+
 
 
 
@@ -443,10 +451,11 @@ if (isset($_GET["logout"])) {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </section>
+
+
+
 
                 <footer>
                     <div class="container">
