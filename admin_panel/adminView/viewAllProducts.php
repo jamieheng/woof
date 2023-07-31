@@ -6,14 +6,16 @@
       width: 100%;
     }
   </style>
-  <h2>Pet Lists</h2>
+  <h2>Pet Lists2222</h2>
   <table class="table ">
     <thead>
       <tr>
         <th class="text-center">No.</th>
         <th class="text-center">Pet Image</th>
         <th class="text-center">Pet Name</th>
+        <th class="text-center">Pet Age</th>
         <th class="text-center">Pet Description</th>
+        <th class="text-center">Pet Breed</th>
         <th class="text-center">Category Name</th>
         <th class="text-center" colspan="2">Action</th>
       </tr>
